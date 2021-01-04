@@ -49,6 +49,7 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
     height: 70%;
+    background-color: white;
 }
 .experiance_area{
     background-image: url(images/exp-bg.png);
@@ -64,4 +65,8 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
 }
