@@ -1,8 +1,17 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .name-color{
     color: orange;
@@ -16,3 +25,24 @@ h1{
 .half-width img{
     width: 100%;
 }
+.half-width p{
+    font-size: 15px;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.contact_button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(109, 194, 228), rgba(9, 150, 231, 0.822));
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+}
+.dream_area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
